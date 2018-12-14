@@ -1,0 +1,50 @@
+body{
+    font-family: 'Lato', sans-serif;
+	position: relative;
+	background: url('Nbi7bYI.jpg');
+	background-size: cover;
+	margin: 0px;
+}
+.main-section{
+	width: 460px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.content-section{
+	background: white;	
+	
+}
+.head-section{
+	background: white;
+	text-align: center;
+	padding: 15px 0px;
+	
+}
+.head-section h3{
+	margin: 0px;
+	color: black;
+}
+.body-section{
+	padding:15px 30px 30px 30px;
+	overflow: hidden;
+}
+.body-section .form-input{
+	width: 100%;
+	padding: 15px 0px;
+}
+.body-section .form-input input[type='text']{
+	width: 100%;
+	border-radius: 1px;
+	padding:10px 10px;
+	
+}
+
+.body-section .btn-submit{
+	float: right;
+	background: white;
+	font-weight: bold;
+	padding:7px 20px;
+	
+}
